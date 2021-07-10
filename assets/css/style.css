@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -437,4 +438,133 @@ header {
 .section-team--social a:hover,
 .section-team--social a.active {
     background-color: #B28756;
+}
+
+.clients-depoiments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section-client--name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section-client--role {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.quote {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #999;
+    font-weight: 600;
+    text-align: center;
+}
+
+.depoiments .sliders-pointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.depoiments .pointer {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.depoiments .pointer.active {
+    background-color: #B28756;
+}
+
+.prizes {
+    border-top: 1px solid #e7edee;
+    border-bottom: 1px solid #e7edee;
+    padding: 25px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-prices {
+    background-color: #fff;
+    padding: 30px 40px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.section-prices h4 {
+    text-transform: uppercase;
+    margin-bottom: 5px;;
+}
+
+.section-prices h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section-prices h5{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(65, 49, 49);
+    padding: 5px 0;
+}
+
+.section-prices p {
+    font-size: 10px;
+    color: rgb(65, 49, 49)
+}
+
+.section-prices a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(31, 29, 29);
+    color: #fff;
+    font-weight: 600;
+}
+
+.section-prices a:hover{
+    background-color: #B28756;    
+}
+
+.section-prices a.active {
+    background-color: #B28756;;
 }
