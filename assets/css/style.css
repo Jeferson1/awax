@@ -639,3 +639,160 @@ header {
     justify-content: center;
     margin-top: 30px;
 }
+
+.section-body {
+    display: flex;
+    max-width: 900px;
+}
+
+.section-facts {
+    display: flex;
+    padding: 0px 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+}
+
+.section-facts h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: #B28756;
+}
+
+.section-facts div {
+    background-color: #B28756;
+    height: 3px;
+    width: 15px;
+}
+
+.section-facts h3 {
+    text-transform: uppercase;
+}
+
+.medias {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share span {
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #999;   
+}
+
+.social .twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(153, 130, 216);
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 0 4px 0 15px;
+}
+
+.social .linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(104, 85, 158);
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 0 4px 0 15px;
+}
+
+.social .facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 61, 138);
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 0 4px 0 15px;
+}
+
+.social .googleplus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 24, 24);
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 0 4px 0 15px;
+}
+
+.social .pinterest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(148, 41, 41);
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin: 0 4px 0 15px;
+}
+
+.form {
+    border-top: 1px solid rgb(223, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .name, .email {
+    outline: none;
+    border-style: none;
+    border-bottom: 2px solid #999;
+    background-color: unset;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin-right: 15px;
+}
+
+.email {
+    margin-left: 15px;
+}
+
+.subject, .message {
+    outline: none;
+    border-style: none;
+    border-bottom: 2px solid #999;
+    background-color: unset;
+    padding-bottom: 10px;
+    margin: 30px 0;
+    width: 387px;   
+}
